@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  font-family: serif;
+  font-size: large 15px;
+  color: white;
+  line-height: 1.6;
+}
+#codepro {
+  background-image: url(../image/codepro.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+#codepro h1 {
+  font-size: 55px;
+}
+#codepro p {
+  font-size: 20px;
+}
+nav {
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  padding: 0 20px;
+  line-height: 100px;
+}
+nav ul {
+  float: right;
+  margin: 20;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  margin: 0 8px;
+}
+nav a {
+  color: blue;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+a.active,
+a:hover {
+  background: yellow;
+  border: 1px solid blue;
+  transition: 0.5s;
+}
